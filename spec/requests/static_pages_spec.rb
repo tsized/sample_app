@@ -2,6 +2,9 @@ require 'spec_helper'
 
 describe "Static pages" do
 
+    # Can be used with have_title("#{base_title} | 'Home')
+    # let(:base_title) { "Ruby on Rails Tutorial Sample App" }
+
   describe "Home page" do
     it "should have the content 'Sample App'" do
       visit '/static_pages/home'
